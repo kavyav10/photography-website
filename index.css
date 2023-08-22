@@ -1,0 +1,67 @@
+li{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+li>a:hover{
+    background-color: gray;
+    border-radius: 10%;
+}
+ul{
+    gap: 20px;
+}
+body{
+    background-image: url(./paul-gaudriault-cwy9yVBBPxg-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 90%;
+   
+}
+#navbar{
+    opacity: 0.9;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    
+}
+#copyright{
+    font-size: 20px;
+}
+#arj{
+    font-family:cursive;
+    font-size: 70px;
+}
+#box{
+    
+    opacity: 0.9;
+ 
+}
+
+a{
+    text-decoration: none;
+}
+#contact:hover{
+  
+    background-color: #349139;
+    
+}
+#contact{
+    border-radius: 5%;
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+   
+    animation: animate 1.9s linear infinite;
+}
+   @keyframes animate {
+        0%{opacity: 0;
+        }
+        50%{
+            opacity: 0.9;
+        }
+        100%{
+            opacity: 0;
+        }
+    };
+
